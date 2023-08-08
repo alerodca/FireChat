@@ -138,6 +138,4 @@ extension ConversationController: NewMessageControllerDelegate {
         let chat = ChatController(user: user)
         navigationController?.pushViewController(chat, animated: true)
     }
-    
-    
 }

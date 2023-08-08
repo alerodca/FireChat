@@ -66,8 +66,8 @@ extension NewMessageController {
         
         cell.user = users[indexPath.row]
         
-        print("DEBUG: Index row is \(indexPath.row)")
-        print("DEBUG: User in array is \(users[indexPath.row].username)")
+        // print("DEBUG: Index row is \(indexPath.row)")
+        // print("DEBUG: User in array is \(users[indexPath.row].username)")
         
         return cell
     }
