@@ -35,6 +35,7 @@
 		7590026F2A69180F00D39FC9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7590026E2A69180F00D39FC9 /* Extensions.swift */; };
 		759002712A692E1D00D39FC9 /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759002702A692E1D00D39FC9 /* InputContainerView.swift */; };
 		759002732A6932B400D39FC9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759002722A6932B400D39FC9 /* CustomTextField.swift */; };
+		75A5701A2A84E1E400EC7C5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A570192A84E1E400EC7C5B /* Constants.swift */; };
 		75FA5CC52A78086200A8E89A /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA5CC42A78086200A8E89A /* UserCell.swift */; };
 		B0BBAE87B37A5439E39E93C6 /* Pods_FireChat_FireChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE62E374A9A41AB0A90F666 /* Pods_FireChat_FireChatUITests.framework */; };
 		FFFB0A3B561B7F6AA59B952D /* Pods_FireChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A575793B679A960DD7BA649 /* Pods_FireChatTests.framework */; };
@@ -92,6 +93,7 @@
 		7590026E2A69180F00D39FC9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		759002702A692E1D00D39FC9 /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
 		759002722A6932B400D39FC9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		75A570192A84E1E400EC7C5B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		75FA5CC42A78086200A8E89A /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		8A575793B679A960DD7BA649 /* Pods_FireChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E891741EE1E5FDF54298EA /* Pods-FireChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireChatTests.release.xcconfig"; path = "Target Support Files/Pods-FireChatTests/Pods-FireChatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				7590026E2A69180F00D39FC9 /* Extensions.swift */,
+				75A570192A84E1E400EC7C5B /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				754DB2E02A65225000FC12A8 /* ViewController.swift in Sources */,
+				75A5701A2A84E1E400EC7C5B /* Constants.swift in Sources */,
 				75487E662A6E783500846CE3 /* RegistrationViewModel.swift in Sources */,
 				759002712A692E1D00D39FC9 /* InputContainerView.swift in Sources */,
 				750A12E12A726DF80043CE5F /* AuthService.swift in Sources */,
