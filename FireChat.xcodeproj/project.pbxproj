@@ -36,6 +36,8 @@
 		759002712A692E1D00D39FC9 /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759002702A692E1D00D39FC9 /* InputContainerView.swift */; };
 		759002732A6932B400D39FC9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759002722A6932B400D39FC9 /* CustomTextField.swift */; };
 		75A5701A2A84E1E400EC7C5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A570192A84E1E400EC7C5B /* Constants.swift */; };
+		75F58CB22A8F5B56009E8F85 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F58CB12A8F5B56009E8F85 /* ConversationCell.swift */; };
+		75F58CB42A8F5F56009E8F85 /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F58CB32A8F5F56009E8F85 /* ConversationViewModel.swift */; };
 		75FA5CC52A78086200A8E89A /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA5CC42A78086200A8E89A /* UserCell.swift */; };
 		B0BBAE87B37A5439E39E93C6 /* Pods_FireChat_FireChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE62E374A9A41AB0A90F666 /* Pods_FireChat_FireChatUITests.framework */; };
 		FFFB0A3B561B7F6AA59B952D /* Pods_FireChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A575793B679A960DD7BA649 /* Pods_FireChatTests.framework */; };
@@ -94,6 +96,8 @@
 		759002702A692E1D00D39FC9 /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
 		759002722A6932B400D39FC9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		75A570192A84E1E400EC7C5B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		75F58CB12A8F5B56009E8F85 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		75F58CB32A8F5F56009E8F85 /* ConversationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewModel.swift; sourceTree = "<group>"; };
 		75FA5CC42A78086200A8E89A /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		8A575793B679A960DD7BA649 /* Pods_FireChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E891741EE1E5FDF54298EA /* Pods-FireChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireChatTests.release.xcconfig"; path = "Target Support Files/Pods-FireChatTests/Pods-FireChatTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -217,6 +221,7 @@
 				75FA5CC42A78086200A8E89A /* UserCell.swift */,
 				756ACC7A2A80EAB5004D1D19 /* CustomInputAccesoryView.swift */,
 				756ACC7C2A81075D004D1D19 /* MessageCell.swift */,
+				75F58CB12A8F5B56009E8F85 /* ConversationCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			children = (
 				75487E672A6E783900846CE3 /* Authentication */,
 				7531C4EE2A82463A0058954F /* MessageViewModel.swift */,
+				75F58CB32A8F5F56009E8F85 /* ConversationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -544,12 +550,14 @@
 				758D82512A7905AE006275F9 /* User.swift in Sources */,
 				758D82532A790665006275F9 /* Service.swift in Sources */,
 				756ACC7D2A81075D004D1D19 /* MessageCell.swift in Sources */,
+				75F58CB42A8F5F56009E8F85 /* ConversationViewModel.swift in Sources */,
 				7590026D2A69144A00D39FC9 /* RegistrationController.swift in Sources */,
 				7590026B2A69143C00D39FC9 /* LoginController.swift in Sources */,
 				7590026F2A69180F00D39FC9 /* Extensions.swift in Sources */,
 				756ACC7B2A80EAB6004D1D19 /* CustomInputAccesoryView.swift in Sources */,
 				75487E642A6E5F8700846CE3 /* LoginViewModel.swift in Sources */,
 				75523D7A2A7BBDC30015532E /* ChatController.swift in Sources */,
+				75F58CB22A8F5B56009E8F85 /* ConversationCell.swift in Sources */,
 				7531C4ED2A822DFA0058954F /* Message.swift in Sources */,
 				759002732A6932B400D39FC9 /* CustomTextField.swift in Sources */,
 				7532A7112A73B37C00163DC4 /* NewMessageController.swift in Sources */,
