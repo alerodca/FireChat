@@ -45,6 +45,7 @@ class NewMessageController: UITableViewController {
     
     func fetchUsers() {
         Service.fetchUsers { users in
+            self.showLoader(false)
             self.users = users
             self.tableView.reloadData()
         }

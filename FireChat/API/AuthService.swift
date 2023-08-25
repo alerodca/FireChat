@@ -19,12 +19,11 @@ struct RegistrationCredentials {
 struct AuthService {
     static let shared = AuthService()
     
-    func logUserIn(withEmail email: String, password: String) {
-        Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
-            if let error = error {
-                print("DEBUG: Failed to login with error: \(error.localizedDescription)")
-            }
-        }
+    func logUserIn(withEmail email: String,
+                   password: String,
+                   completion: @escaping(AuthDataResult?, Error?) -> Void) {
+
+        Auth.auth().signIn(withEmail: email, password: password, completion: completion)
     }
     
     func createUser(credentials: RegistrationCredentials, completion: ((Error?) -> Void)?) {

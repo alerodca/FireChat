@@ -6,12 +6,12 @@ target 'FireChat' do
   use_frameworks!
 
   # Pods for FireChat
-	pod 'Firebase/Core'
-	pod 'Firebase/Storage'
-	pod 'Firebase/Auth'
-	pod 'Firebase/Firestore'
-	pod 'SDWebImage','~>4.4.2'
-	pod 'JGProgressHUD','~>2.0.3'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Auth'
+  pod 'SDWebImage'
+  pod 'JGProgressHUD'
 
   target 'FireChatTests' do
     inherit! :search_paths

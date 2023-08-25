@@ -25,7 +25,7 @@ class ProfileHeader: UIView {
         let button = UIButton(type: .system)
         button.setImage(UIImage(systemName: "xmark"), for: .normal)
         button.addTarget(self, action: #selector(handleDismissal), for: .touchUpInside)
-        button.tintColor = .black
+        button.tintColor = .white
         button.imageView?.setDimensions(height: 22, width: 22)
         return button
     }()
@@ -34,7 +34,7 @@ class ProfileHeader: UIView {
         let iv = UIImageView()
         iv.clipsToBounds = true
         iv.contentMode = .scaleAspectFill
-        iv.layer.borderColor = UIColor.black.cgColor
+        iv.layer.borderColor = UIColor.white.cgColor
         iv.layer.borderWidth = 4.0
         return iv
     }()
@@ -42,7 +42,7 @@ class ProfileHeader: UIView {
     private let fullnameLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 20)
-        label.textColor = .black
+        label.textColor = .white
         label.textAlignment = .center
         return label
     }()
@@ -50,7 +50,7 @@ class ProfileHeader: UIView {
     private let usernameLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 16)
-        label.textColor = .black
+        label.textColor = .white
         label.textAlignment = .center
         return label
     }()
@@ -59,6 +59,10 @@ class ProfileHeader: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
         configureUI()
     }
     

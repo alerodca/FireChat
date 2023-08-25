@@ -19,7 +19,7 @@ class UserCell: UITableViewCell {
     private let profileImageView: UIImageView = {
         let iv = UIImageView()
         iv.backgroundColor = .systemPurple
-        iv.contentMode = .scaleToFill
+        iv.contentMode = .scaleAspectFill
         iv.clipsToBounds = true
         return iv
     }()
